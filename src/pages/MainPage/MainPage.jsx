@@ -1,10 +1,13 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-
+import style from './MainPage.module.css'
+import Crousel from '../../components/Crousel/Crousel'
 const MainPage = () => {
+
   return (
-    <div className='container'>
-         Main page
+    <div className={style.main_container}>
+         <div className={style.crousel_container}>
+          <Crousel/>
+         </div>
     </div>
   )
 }

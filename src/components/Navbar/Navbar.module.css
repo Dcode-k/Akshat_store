@@ -1,0 +1,13 @@
+.nav_container{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.button_container{
+    display: flex;
+    gap: 5px;
+}
